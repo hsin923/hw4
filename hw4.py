@@ -16,7 +16,7 @@ print("最後一個元素:",tuple[-1])
 old_tuple = (1, 2, 3, 4)
 
 
-new_list = list(original_tuple)
+new_list = list(old_tuple)
 
 
 new_list.append(5)  
