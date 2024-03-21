@@ -13,20 +13,20 @@ print("最後一個元素:",tuple[-1])
 # b)
 
 
-original_tuple = (1, 2, 3, 4)
+old_tuple = (1, 2, 3, 4)
 
 
-numbers_list = list(original_tuple)
+new_list = list(original_tuple)
 
 
-numbers_list.append(5)  
-numbers_list.extend([6, 7, 8])  
+new_list.append(5)  
+new_list.extend([6, 7, 8])  
 
 
-updated_tuple = tuple(numbers_list)
+updated_tuple = tuple(new_list)
 
 
-print(f"原始的tuple: {original_tuple}")
+print(f"原始的tuple: {old_tuple}")
 print(f"更新後的tuple: {updated_tuple}")
 
 
